@@ -1,4 +1,23 @@
 #sbrn{
     color:hotpink;
     background-color: black;
+    display: flex;
+    border-radius: 10px;;
+}
+#navbar{
+    display: flex;
+}
+#nav-list{
+    display: flex;
+    justify-content: space-between;
+
+}
+#about:hover{
+    color:white;
+}
+#home:hover{
+    color:seashell
+}
+#contact:hover{
+    color:skyblue
 }
