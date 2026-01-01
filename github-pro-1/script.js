@@ -2,7 +2,7 @@ const rn = document.getElementById("sbrn");
 const home =document.getElementById("home")
 const about=document.getElementById("about")
 const contact=document.getElementById("contact")
-
+const gucci=document.getElementById("gucci")
 const hero=document.getElementById("heroone")
 
 
@@ -21,4 +21,8 @@ contact.addEventListener("click",()=>{
 
 hero.addEventListener("click",()=>{
   console.log("hero section got clicked")
+})
+
+gucci.addEventListener("dblclick",()=>{
+  console.log("double cliekd")
 })
