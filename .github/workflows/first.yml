@@ -1,0 +1,8 @@
+name: firstworkflow
+on: push 
+
+jobs:
+  demo:
+   runs-on: ubuntu-latest
+   steps: 
+    - run: echo " ilove you emu"
