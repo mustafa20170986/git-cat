@@ -1,0 +1,19 @@
+name: Basic CI pipeline 
+on:
+ push: 
+  branches: [hero]
+pull_request:
+  branches: [boss]
+
+jobs: 
+build: 
+ runs-on: ubuntu-latest 
+ steps: 
+  - name: chekout repo 
+    uses: actions/checkout@v3 
+
+  - name: showrepo files 
+    uses: ls -la
+  - name: onsuccess 
+    run: echo "success" 
+

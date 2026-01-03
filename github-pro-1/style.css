@@ -27,11 +27,12 @@
     color:skyblue
 }
 #heroone{
-    background-color:seagreen;
+    background-color:black;
     color:white;
     padding:10px;
     margin:5px;
     border-radius:5px;
+    text-align: center;
 }
 #nxt{
     background-color: royalblue;
