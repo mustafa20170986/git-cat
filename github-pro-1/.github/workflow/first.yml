@@ -1,8 +1,19 @@
-name: firstworkflow
-on: push 
+name: Basic CI pipeline 
+on:
+ push: 
+  branches: [hero]
+pull_request:
+  branches: [boss]
 
-jobs:
-  demo:
-   runs-on: ubuntu-latest
-   steps: 
-    - run: echo " ilove you emu"
+jobs: 
+build: 
+ runs-on: ubuntu-latest 
+ steps: 
+  - name: chekout repo 
+    uses: actions/checkout@v3 
+
+  - name: showrepo files 
+    uses: ls -la
+  - name: onsuccess 
+    run: echo "success" 
+
